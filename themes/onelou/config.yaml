@@ -1,0 +1,18 @@
+module:
+    hugoVersion:
+        extended: true
+        min: "0.87.0"
+baseURL: http://localhost:1313/
+title: OneLou
+keywords: OneLou
+description: OneLou
+paginate: 10
+hasCJKLanguage: true
+languageCode: 'en-us'
+menu:
+  navs:
+    - name: LinkedIn
+      params:
+        img: /img/linkedin.png
+      weight: 1
+      url: "https://www.linkedin.com/in/robbowland/"
